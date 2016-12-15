@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDE43033F3523E7CAF366F63 /* libPods-FirstDesignPattern.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C4DBAB8292FB14B4D8350C /* libPods-FirstDesignPattern.a */; };
 		C14A043E1DE7F410003D91D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A043D1DE7F410003D91D4 /* main.m */; };
 		C14A04411DE7F410003D91D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04401DE7F410003D91D4 /* AppDelegate.m */; };
 		C14A04441DE7F410003D91D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04431DE7F410003D91D4 /* ViewController.m */; };
 		C14A04471DE7F410003D91D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14A04451DE7F410003D91D4 /* Main.storyboard */; };
 		C14A04491DE7F410003D91D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14A04481DE7F410003D91D4 /* Assets.xcassets */; };
 		C14A044C1DE7F410003D91D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14A044A1DE7F410003D91D4 /* LaunchScreen.storyboard */; };
+		C14A04551DE7F42F003D91D4 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04541DE7F42F003D91D4 /* Duck.m */; };
+		C14A04581DE7F4CC003D91D4 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04571DE7F4CC003D91D4 /* MallardDuck.m */; };
+		C14A045B1DE7F50B003D91D4 /* FlyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A045A1DE7F50B003D91D4 /* FlyBehavior.m */; };
+		C14A045E1DE7F520003D91D4 /* QuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A045D1DE7F520003D91D4 /* QuackBehavior.m */; };
+		C14A04611DE7F5D4003D91D4 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04601DE7F5D4003D91D4 /* FlyWithWings.m */; };
+		C14A04641DE7F5E2003D91D4 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04631DE7F5E2003D91D4 /* FlyNoWay.m */; };
+		C14A04671DE7F673003D91D4 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04661DE7F673003D91D4 /* Quack.m */; };
+		C14A046A1DE7F68C003D91D4 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A04691DE7F68C003D91D4 /* Squeak.m */; };
+		C14A046D1DE7F69E003D91D4 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A046C1DE7F69E003D91D4 /* MuteQuack.m */; };
+		C18560F11E026B8500FF6D2E /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = C18560F01E026B8500FF6D2E /* RubberDuck.m */; };
+		C18560F41E026BE700FF6D2E /* DecoyDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = C18560F31E026BE700FF6D2E /* DecoyDuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24DAE433339054C5193C7DF2 /* Pods-FirstDesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDesignPattern/Pods-FirstDesignPattern.release.xcconfig"; sourceTree = "<group>"; };
+		B4C4DBAB8292FB14B4D8350C /* libPods-FirstDesignPattern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstDesignPattern.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14A04391DE7F410003D91D4 /* FirstDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14A043D1DE7F410003D91D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C14A043F1DE7F410003D91D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +40,29 @@
 		C14A04481DE7F410003D91D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14A044B1DE7F410003D91D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C14A044D1DE7F410003D91D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14A04531DE7F42F003D91D4 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		C14A04541DE7F42F003D91D4 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		C14A04561DE7F4CC003D91D4 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		C14A04571DE7F4CC003D91D4 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		C14A04591DE7F50B003D91D4 /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		C14A045A1DE7F50B003D91D4 /* FlyBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyBehavior.m; sourceTree = "<group>"; };
+		C14A045C1DE7F520003D91D4 /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		C14A045D1DE7F520003D91D4 /* QuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuackBehavior.m; sourceTree = "<group>"; };
+		C14A045F1DE7F5D4003D91D4 /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		C14A04601DE7F5D4003D91D4 /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		C14A04621DE7F5E2003D91D4 /* FlyNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		C14A04631DE7F5E2003D91D4 /* FlyNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		C14A04651DE7F673003D91D4 /* Quack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		C14A04661DE7F673003D91D4 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		C14A04681DE7F68C003D91D4 /* Squeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		C14A04691DE7F68C003D91D4 /* Squeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		C14A046B1DE7F69E003D91D4 /* MuteQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		C14A046C1DE7F69E003D91D4 /* MuteQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		C18560EF1E026B8500FF6D2E /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		C18560F01E026B8500FF6D2E /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		C18560F21E026BE700FF6D2E /* DecoyDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoyDuck.h; sourceTree = "<group>"; };
+		C18560F31E026BE700FF6D2E /* DecoyDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoyDuck.m; sourceTree = "<group>"; };
+		DF8E949FF9712A84B58553F2 /* Pods-FirstDesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDesignPattern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDesignPattern/Pods-FirstDesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE43033F3523E7CAF366F63 /* libPods-FirstDesignPattern.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48CC2EE00624620FECAD294A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E949FF9712A84B58553F2 /* Pods-FirstDesignPattern.debug.xcconfig */,
+				24DAE433339054C5193C7DF2 /* Pods-FirstDesignPattern.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C14A04301DE7F410003D91D4 = {
 			isa = PBXGroup;
 			children = (
 				C14A043B1DE7F410003D91D4 /* FirstDesignPattern */,
 				C14A043A1DE7F410003D91D4 /* Products */,
+				48CC2EE00624620FECAD294A /* Pods */,
+				E846158484C9AEF50CD9508C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +111,28 @@
 				C14A04401DE7F410003D91D4 /* AppDelegate.m */,
 				C14A04421DE7F410003D91D4 /* ViewController.h */,
 				C14A04431DE7F410003D91D4 /* ViewController.m */,
+				C14A04531DE7F42F003D91D4 /* Duck.h */,
+				C14A04541DE7F42F003D91D4 /* Duck.m */,
+				C14A04561DE7F4CC003D91D4 /* MallardDuck.h */,
+				C14A04571DE7F4CC003D91D4 /* MallardDuck.m */,
+				C18560EF1E026B8500FF6D2E /* RubberDuck.h */,
+				C18560F01E026B8500FF6D2E /* RubberDuck.m */,
+				C18560F21E026BE700FF6D2E /* DecoyDuck.h */,
+				C18560F31E026BE700FF6D2E /* DecoyDuck.m */,
+				C14A04591DE7F50B003D91D4 /* FlyBehavior.h */,
+				C14A045A1DE7F50B003D91D4 /* FlyBehavior.m */,
+				C14A045F1DE7F5D4003D91D4 /* FlyWithWings.h */,
+				C14A04601DE7F5D4003D91D4 /* FlyWithWings.m */,
+				C14A04621DE7F5E2003D91D4 /* FlyNoWay.h */,
+				C14A04631DE7F5E2003D91D4 /* FlyNoWay.m */,
+				C14A045C1DE7F520003D91D4 /* QuackBehavior.h */,
+				C14A045D1DE7F520003D91D4 /* QuackBehavior.m */,
+				C14A04651DE7F673003D91D4 /* Quack.h */,
+				C14A04661DE7F673003D91D4 /* Quack.m */,
+				C14A04681DE7F68C003D91D4 /* Squeak.h */,
+				C14A04691DE7F68C003D91D4 /* Squeak.m */,
+				C14A046B1DE7F69E003D91D4 /* MuteQuack.h */,
+				C14A046C1DE7F69E003D91D4 /* MuteQuack.m */,
 				C14A04451DE7F410003D91D4 /* Main.storyboard */,
 				C14A04481DE7F410003D91D4 /* Assets.xcassets */,
 				C14A044A1DE7F410003D91D4 /* LaunchScreen.storyboard */,
@@ -79,6 +150,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E846158484C9AEF50CD9508C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C4DBAB8292FB14B4D8350C /* libPods-FirstDesignPattern.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C14A04501DE7F410003D91D4 /* Build configuration list for PBXNativeTarget "FirstDesignPattern" */;
 			buildPhases = (
+				1CBCBB12565325E28B3E16E4 /* [CP] Check Pods Manifest.lock */,
 				C14A04351DE7F410003D91D4 /* Sources */,
 				C14A04361DE7F410003D91D4 /* Frameworks */,
 				C14A04371DE7F410003D91D4 /* Resources */,
+				3958004720FB0CEFC01D02A7 /* [CP] Embed Pods Frameworks */,
+				4D3AF693B262D8EDB23CE74F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +227,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CBCBB12565325E28B3E16E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3958004720FB0CEFC01D02A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstDesignPattern/Pods-FirstDesignPattern-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D3AF693B262D8EDB23CE74F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstDesignPattern/Pods-FirstDesignPattern-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C14A04351DE7F410003D91D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14A046A1DE7F68C003D91D4 /* Squeak.m in Sources */,
+				C14A04611DE7F5D4003D91D4 /* FlyWithWings.m in Sources */,
+				C14A04551DE7F42F003D91D4 /* Duck.m in Sources */,
+				C14A04581DE7F4CC003D91D4 /* MallardDuck.m in Sources */,
 				C14A04441DE7F410003D91D4 /* ViewController.m in Sources */,
+				C18560F41E026BE700FF6D2E /* DecoyDuck.m in Sources */,
 				C14A04411DE7F410003D91D4 /* AppDelegate.m in Sources */,
+				C14A046D1DE7F69E003D91D4 /* MuteQuack.m in Sources */,
 				C14A043E1DE7F410003D91D4 /* main.m in Sources */,
+				C14A04641DE7F5E2003D91D4 /* FlyNoWay.m in Sources */,
+				C14A045E1DE7F520003D91D4 /* QuackBehavior.m in Sources */,
+				C18560F11E026B8500FF6D2E /* RubberDuck.m in Sources */,
+				C14A045B1DE7F50B003D91D4 /* FlyBehavior.m in Sources */,
+				C14A04671DE7F673003D91D4 /* Quack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +411,7 @@
 		};
 		C14A04511DE7F410003D91D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8E949FF9712A84B58553F2 /* Pods-FirstDesignPattern.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirstDesignPattern/Info.plist;
@@ -281,6 +423,7 @@
 		};
 		C14A04521DE7F410003D91D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DAE433339054C5193C7DF2 /* Pods-FirstDesignPattern.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirstDesignPattern/Info.plist;
@@ -309,6 +452,7 @@
 				C14A04521DE7F410003D91D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
